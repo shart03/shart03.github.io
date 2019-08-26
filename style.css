@@ -5,21 +5,15 @@ h1 {
 }
 
 p {
+	font-size: 200%;
+	color: white;
+}
+
+sub {
 	font-size: 130%;
+	color: white;
 }
 
 body {
 	background-color: powderblue;
-}
-
-#intro {
-	background-color: blue;
-}
-
-.first {
-	font-size: 200%;
-}
-
-#intro .first {
-	color: white;
 }
