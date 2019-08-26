@@ -1,0 +1,25 @@
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 300%;
+}
+
+p {
+	font-size: 130%;
+}
+
+body {
+	background-color: powderblue;
+}
+
+#intro {
+	background-color: blue;
+}
+
+.first {
+	font-size: 200%;
+}
+
+#intro .first {
+	color: white;
+}
