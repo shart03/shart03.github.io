@@ -98,7 +98,7 @@ header {
 }
 
 nav {
-	float: left;
+	float: right;
 }
 
 header::after {
@@ -115,10 +115,10 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	margin-right: 90px;
+	margin-left: 10px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	padding-left: 0px;
+	padding-left: 30px;
 
 }
 
@@ -133,12 +133,36 @@ nav a:hover {
 	color: black;
 }
 
+#welcome {
+	display: inline-block;
+	font-size: 34px;
+	padding-top:20px;
+	color: white;
+	position: relative;
+	left: 0px;
+}
 
+#passgenpro {
+	position: relative;
+	left: 20px;
+	font-size: 18px;
+}
 
+#passgen {
+	position: relative;
+	left: 15px;
+}
 
+#tophead {
+	position: relative;
+	left: 10px;
+}
 
-
-
+#firstsub {
+	position: relative;
+	left: 620px;
+	bottom: 600px;
+}
 
 
 
