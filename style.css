@@ -138,14 +138,6 @@ nav a:hover {
 	color: black;
 }
 
-nav a::before {
-	content '';
-	display: block;
-	height: 5px;
-	width: 100%;
-	background-color: black;
-}
-
 #welcome {
 	display: inline-block;
 	font-size: 34px;
