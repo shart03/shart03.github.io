@@ -122,6 +122,8 @@ nav li {
 	padding-left: 20px;
 	position: relative;
 	left: 80px;
+	
+	position: relative;
 
 }
 
@@ -134,6 +136,14 @@ nav a {
 
 nav a:hover {
 	color: black;
+}
+
+nav a::before {
+	content '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: black;
 }
 
 #welcome {
