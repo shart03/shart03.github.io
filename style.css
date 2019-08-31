@@ -1,3 +1,5 @@
+
+}
 h1 {
 	color: black;
 	text-align: left;
@@ -5,11 +7,13 @@ h1 {
 	position: relative;
 	top: 20px;
 	left: 20px;
+	font-family: 'Playfair Display', serif;
 }
 
 
 
 #box1 {
+	
 	width: 600px;
 	height: 300px;
 	color: black;
@@ -23,8 +27,6 @@ h1 {
 	margin: 60px 25px;
 	position: relative;
 	bottom: 230px;
-}
-
 p {
 	font-size: 250%;
 	color: black;
@@ -60,11 +62,13 @@ p {
 .first {
 	position: relative;
 	top: 30px;
+	font-family: 'Playfair Display', serif;
 }
 
 sub {
 	font-size:125%;
 	color: black;
+	font-family: 'Quattrocento', serif;
 }
 
 img {
@@ -81,7 +85,18 @@ img {
 }
 
 body {
+	margin:0;
+	margin-right: 0;
+	padding: 0;
 	background-color: lightskyblue ;
+}
+
+.welcome {
+	font-family: 'Playfair Display', serif;
+	font-size: 70px;
+	position: relative;
+	top: 50px;
+	left: 20px;
 }
 
 #all {
@@ -89,62 +104,68 @@ body {
 	bottom: 40px;
 }
 
-.container {
-	width: 80%;
-	margin-left: 20px;
-}
-
-header {
-	background: lightseagreen;
-}
-
-nav {
-	float: right;
-}
-
-header::after {
-	content:'';
-	display: table;
-	clear: both;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav li {
-	display: inline-block;
-	margin-left: 10px;
-	padding-top: 25px;
-	padding-bottom: 30px;
-	padding-left: 20px;
+.btnn {
+	border: none;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.7s;
 	position: relative;
-	left: 80px;
-	
-	position: relative;
-
+	bottom: 40px;
+	left: 400px;
+	overflow: hidden;
 }
 
-nav a {
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 16px;
+.containsss {
+	text-align: center;
 }
 
-nav a:hover {
+.btnn {
 	color: black;
 }
 
-#welcome {
-	display: inline-block;
-	font-size: 34px;
-	padding-top:20px;
+.btnn:hover {
 	color: white;
-	position: relative;
-	left: 0px;
+	transition: 0.6s;
+}
+
+.btnn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: lightseagreen;
+	z-index: -1;
+	transition: 0.7s;
+}
+
+.btnn1::before {
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.btnn2::before {
+	bottom: 0;
+	border-radius: 50% 50% 0 0;
+
+}
+
+.btnn3::before {
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.btnn:hover:before {
+	height: 180;
+}
+
+.container {
+	width: 80%;
+	margin-left: 20px;
 }
 
 #passgenpro {
@@ -175,22 +196,73 @@ nav a:hover {
 
 #main {
 	overflow: auto;
-	padding-bottom:100px;
+	padding-bottom:0px;
 
 }
 #footer {
-	background-color: lightseagreen;
+	background-color: lightskyblue;
 	position: relative;
-	height: 100px;
-	margin-top: -100px;
+	height: 0px;
+	margin-bottom:500px;
 	clear: both;
 }
 
-#socialmediaicons ul li {display: inline;}
-#socialmediaicons {
-	padding-top: 10px;
-	margin-left: 10px;
+.botainer{
+	text-align: center;
+	margin-top: 0px;
 }
 
+.btn {
+	size: width: 100px; height: 100px;
+	border: 1px solid lightskyblue;
+	background: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "palatino";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.6s;
+	position: relative;
+	bottom: 300px;
+	right: 525px;
+	overflow: hidden;
+}
+
+.btn1,.btn2 {
+	color: white;
+}
+
+.btn1:hover {
+	color: lightseagreen;
+}
+
+.btn2:hover {
+	color: lightseagreen;
+}
+
+.btn::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: lightseagreen;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+.btn1::before {
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+
+.btn:hover::before{
+	height: 180%;
+}
+
+.btn2::before {
+	bottom: 0;
+	border-radius: 50% 50% 0 0;
+}
 
 
