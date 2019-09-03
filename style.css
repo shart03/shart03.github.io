@@ -1,3 +1,4 @@
+
 h1 {
 	color: black;
 	text-align: left;
@@ -108,7 +109,7 @@ body {
 	border: none;
 	background: none;
 	padding: 10px 20px;
-	font-size: 20px;
+	font-size: 23px;
 	font-family: 'Playfair Display', serif;
 	cursor: pointer;
 	margin: 10px;
@@ -264,5 +265,43 @@ body {
 	bottom: 0;
 	border-radius: 50% 50% 0 0;
 }
+
+#blowntobitspro {
+	position: relative;
+	bottom: 260px;
+	left: 35px;
+	font-size: 18px;
+}
+
+.blowntobits {
+	position: relative;
+	top: 390px;
+	right: 340px;
+}
+
+#boxsubfor6 {
+	width: 570px;
+	height: 100px;
+	color: black;
+	margin: 60px 25px;
+	position: relative;
+	bottom: 260px;
+	left: 640px;
+}
+
+.yayfamily {
+	position: relative;
+	left: 650px;
+	bottom: 360px;
+	width:200px;
+	height: 100px;
+}
+
+#xboxicon {
+	position: relative;
+	left: 180px;
+	bottom: 110px;
+}
+
 
 
