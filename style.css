@@ -1,5 +1,5 @@
 
-
+/* This here is the styles for my headings in all of my html pages */
 h1 {
 	color: black;
 	text-align: left;
@@ -11,7 +11,7 @@ h1 {
 }
 
 
-
+/* These box ones are there to position my paragraphs */
 #box1 {
 	
 	width: 600px;
@@ -29,6 +29,7 @@ h1 {
 	bottom: 230px;
 }
 
+/* This section affects all of the paragraphs */
 p {
 	font-size: 250%;
 	color: black;
@@ -67,18 +68,21 @@ p {
 	font-family: 'Playfair Display', serif;
 }
 
+/* This section affects all of the sub paragraphs */
 sub {
 	font-size:125%;
 	color: black;
 	font-family: 'Quattrocento', serif;
 }
 
+/* This allows for all the images in the html pages to have a border around them */
 img {
 	border-style: solid ;
 	border-color: lightseagreen ;
 	border-width: 4px;
 }
 
+/* This one is for my image in the index html. I left this one here instead of adding it to the main page like the other ones because it was already there and it did not affect anything*/
 .sarah {
 	size: width:200px; height:400px;
 	position:absolute;
@@ -86,6 +90,7 @@ img {
 	right: 80px;
 }
 
+/* This one is for the background of the website */
 body {
 	margin:0;
 	margin-right: 0;
@@ -101,11 +106,13 @@ body {
 	left: 20px;
 }
 
+/* This one positions all of my content to move down for the title */
 #all {
 	position: relative;
 	bottom: 40px;
 }
 
+/* Okay so I understand some parts of when I made my "nav bar" and not all of them, but I do understand what majority of what each one does or I have a general idea. In this section, it positions and styles how the buttons will look like*/
 .btnn {
 	border: none;
 	background: none;
@@ -125,6 +132,7 @@ body {
 	text-align: center;
 }
 
+/* For all of the .btnn parts, it makes the cool effects that I have when you hover over the buttons. It contains how long it hovers for, how it hovers, and how it's styled to hover. */
 .btnn {
 	color: black;
 }
@@ -201,6 +209,8 @@ body {
 	padding-bottom:0px;
 
 }
+
+/* I don't have a footer anymore because it was annoying to work with, but I forgot to take out the styling for it in this file. (whoops) But it doesn't affect anything*/
 #footer {
 	background-color: lightskyblue;
 	position: relative;
@@ -214,6 +224,7 @@ body {
 	margin-top: 0px;
 }
 
+/* These buttons do the same as the nav bar, but it pertains to only the social media icons so they don't contain how the font should interact with the effects because there is no writing. They are pictures */
 .btn {
 	size: width: 100px; height: 100px;
 	border: 1px solid lightskyblue;
@@ -290,6 +301,7 @@ body {
 	left: 665px;
 }
 
+/* I have another cool button feature on the last html page that does the same thing as my social media icons*/
 #xboxicon {
 	position: relative;
 	left: 180px;
