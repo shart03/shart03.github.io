@@ -308,17 +308,42 @@ body {
 	bottom: 110px;
 }
 
+#scratchgamepro {
+	position: relative;
+	left: 35px;
+	top: 220px;
+	font-size: 18px;
+}
+
 #scratch {
 	position: relative;
-	top: 500px;
+	top: 20px;
+	right: 10px;
 }
 
 #earsketch {
 	position: relative;
-	top: 800px;
+	bottom: 125px;
+	right: 15px;
 }
 
 #thirdsub {
 	position: relative;
-	left: 620px;
+	left: 520px;
+	bottom: 370px;
+}
+
+#thirdsubbox {
+	width: 570px;
+	height: 100px;
+	color: white;
+	margin: 80px 25px;
+	position: relative;
+	bottom: 70px;
+}
+
+#earsketchpro {
+	position: relative;
+	left: 0px;
+	bottom: 150px;
 }
